@@ -12,6 +12,7 @@ class ListNotesTableViewController: UITableViewController {
     var notes = [Note]() {
         didSet {
             tableView.reloadData()
+            //reloads tableview
         }
     }
     override func viewDidLoad() {
